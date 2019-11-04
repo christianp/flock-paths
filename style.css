@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 80vh;
+}
+
+#svg {
+    border: 1px solid;
+    max-height: 90vh;
+}
+
+.beacon {
+    fill: green;
+}
